@@ -17,11 +17,11 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     // The line is currently: 1. Ada, 2. Grace
     for (var i = 0; i < katzDeliLine.length; i++) {
-      let str = i + ". " + katzDeliLine[i] +  ", "
-      res.concat(str)
+      let str = i + ". " + katzDeliLine[i] +  ", ";
+      res.concat(str);
     }
   } else {
-    return "The line is currently empty."
+    return "The line is currently empty.";
   }
   return res;
 }
