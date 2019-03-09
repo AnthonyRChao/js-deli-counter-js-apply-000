@@ -4,8 +4,8 @@ function takeANumber(katzDeliLine, name) {
   return "Welcome, " + name + ". You are number " + position + " in line."
 }
 
-function nowServing() {
-  return null
+function nowServing(katzDeliLine) {
+  return katzDeliLine.pop(0)
 }
 
 function currentLine() {
