@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     // The line is currently: 1. Ada, 2. Grace
     for (var i = 0; i < katzDeliLine.length; i++) {
-      let str = i + ". " + katzDeliLine[i] +  ", ";
+      let str = i + 1 + ". " + katzDeliLine[i] +  ", ";
       res.concat(str);
     }
   } else {
