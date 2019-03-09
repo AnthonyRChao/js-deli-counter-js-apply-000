@@ -20,6 +20,7 @@ function currentLine(katzDeliLine) {
       let person = katzDeliLine[i]
       let position = i + 1
       let str = position + ". " + person +  ", ";
+      console.log(person, position, str)
       res.concat(str);
     }
   } else {
