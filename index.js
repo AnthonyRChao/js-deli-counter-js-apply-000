@@ -22,6 +22,7 @@ function currentLine(katzDeliLine) {
       let str = position + ". " + person +  ", ";
       console.log(res, str)
       res += str;
+      console.log(res)
     }
   } else {
     return "The line is currently empty.";
