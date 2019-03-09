@@ -12,6 +12,14 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine() {
-  return null
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length > 0) {
+    // The line is currently: 1. Ada, 2. Grace
+    let res = "The line is currently: "
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      let str = i + ". " + katzDeliLine[i] +  ", "
+      res.concat(str)
+    }
+  }
+  return res;
 }
