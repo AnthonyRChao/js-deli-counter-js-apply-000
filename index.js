@@ -3,11 +3,11 @@ function takeANumber(katzDeliLine, name) {
   return "Welcome, " + name + ". You are number " + position + " in line.";
 }
 
-function takeANumber(people, name) {
-  return people, name;
+function takeANumber() {
+  return null
 }
 
-function nowServing(katzDeliLine) {
+function nowServing() {
   return null
 }
 
