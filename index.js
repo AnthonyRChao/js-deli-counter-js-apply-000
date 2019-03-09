@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  let res = "The line is currently: ";
+  let res = "The line is currently:";
   if (katzDeliLine.length > 0) {
     // The line is currently: 1. Ada, 2. Grace
     for (var i = 0; i < katzDeliLine.length; i++) {
